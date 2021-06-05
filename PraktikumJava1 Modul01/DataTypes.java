@@ -7,7 +7,7 @@ public class DataTypes{
 	int targetTahunKuliah = 4;
 	double ipk = 3.45;
 	char nilaiAbjad = 'A';
-	boolean tampan = true;
+	boolean cantik = true;
 
 	}
 }
