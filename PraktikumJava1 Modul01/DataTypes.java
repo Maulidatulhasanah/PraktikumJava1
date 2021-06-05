@@ -5,7 +5,7 @@ public class DataTypes{
  public static void main(String[] args){
 
     Scanner scanner = new Scanner(System.in);
-    
+
 	String namaDepan = "Maulidatul";
 	String namaBelakang = "Hasanah";
 	int usia = 20;
@@ -36,5 +36,6 @@ public class DataTypes{
     System.err.println("Cantik : " + cantik);
 
     JOptionPane.showMessageDialog(null,"Hai, " + namaDepan + namaBelakang);
+    namaBelakang = JOptionPane.showInputDialog("Nama Belakang :");
 	}
 }
