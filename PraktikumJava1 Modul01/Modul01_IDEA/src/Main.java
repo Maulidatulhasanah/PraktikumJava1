@@ -7,7 +7,7 @@ public class Main {
         double ipk = 3.45;
         char nilaiAbjad = 'A';
         boolean cantik = true;
-        
+
         System.out.println(namaDepan + namaBelakang);
     }
 }
