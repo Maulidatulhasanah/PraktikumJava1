@@ -9,5 +9,11 @@ public class Main {
         boolean cantik = true;
 
         System.out.println(namaDepan + namaBelakang);
+        
+        char[] unisKaChar = {'U','N','I','S','K','A'};
+        String unisKaString = new String(unisKaChar);
+        System.out.println(unisKaString);
     }
 }
+
+
