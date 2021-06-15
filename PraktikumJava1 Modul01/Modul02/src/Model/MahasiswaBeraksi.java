@@ -22,10 +22,9 @@ public class MahasiswaBeraksi {
         mahasiswa.tampilkanAtribut();
         mahasiswa.menyapa();
         System.out.println("Usiaku : " + mahasiswa.hitungUsia() + " tahun");
-        Mahasiswa mahasiswa2 = new Mahasiswa();
-        mahasiswa2.npm ="19710028";
-        mahasiswa2.nama = "Erni farina rakhmi";
-        mahasiswa2.tanggalLahir = simpleDateFormat.parse("11-03-2001");
+
+        Mahasiswa mahasiswa2 = new Mahasiswa("19710028", "Erni farina rakhmi", "11-03-2001");
+        mahasiswa2.tampilkanAtribut();
 
         System.out.println("Nama \t\t\t : " + mahasiswa2.nama);
         System.out.println("Npm \t\t\t : " + mahasiswa2.npm);
