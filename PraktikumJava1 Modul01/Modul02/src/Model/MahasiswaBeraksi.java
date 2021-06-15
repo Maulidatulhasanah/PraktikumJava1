@@ -19,6 +19,9 @@ public class MahasiswaBeraksi {
         System.out.println("Npm \t\t\t : " + mahasiswa.npm);
         System.out.println("Tanggal Lahir \t : " + mahasiswa.tanggalLahir);
 
+        mahasiswa.tampilkanAtribut();
+        mahasiswa.menyapa();
+        System.out.println("Usiaku : " + mahasiswa.hitungUsia() + " tahun");
         Mahasiswa mahasiswa2 = new Mahasiswa();
         mahasiswa2.npm ="19710028";
         mahasiswa2.nama = "Erni farina rakhmi";
